@@ -22,15 +22,18 @@ class MenuAppBar extends StatelessWidget with PreferredSizeWidget {
               child: Padding(
                 padding: const EdgeInsets.only(right: 20),
                 child: Container(
-                  height: 50,
-                  width: 50,
+                  height: 45,
+                  width: 45,
                   alignment: Alignment.center,
-                  decoration: const BoxDecoration(boxShadow: [
-                    BoxShadow(
-                        blurRadius: 7,
-                        spreadRadius: 2,
-                        color: Color.fromARGB(255, 116, 142, 177))
-                  ], shape: BoxShape.circle, color: Colors.white),
+                  decoration: const BoxDecoration(
+                      boxShadow: [
+                        BoxShadow(
+                            blurRadius: 6,
+                            spreadRadius: 2,
+                            color: Color.fromARGB(255, 97, 122, 155))
+                      ],
+                      shape: BoxShape.circle,
+                      color: Color.fromARGB(255, 236, 236, 239)),
                   padding: const EdgeInsets.only(
                     bottom: 0,
                   ),
@@ -44,6 +47,6 @@ class MenuAppBar extends StatelessWidget with PreferredSizeWidget {
             );
           }),
         ],
-        elevation: 34);
+        elevation: 10);
   }
 }

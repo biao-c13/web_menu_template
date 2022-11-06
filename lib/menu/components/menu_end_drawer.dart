@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:web_menu_template/menu/components/menu_end_drawer_buildList.dart';
 
 import '../../costants/configs.dart';
 
@@ -7,14 +8,10 @@ class MenuEndDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-      child: ListView.builder(
-        itemBuilder: (BuildContext context, int index) {
-          return ListTile(
-            leading: Icon(Icons.list),
-            title: Text("GFG item $index"),
-            trailing: Icon(Icons.done),
-          );
-        },
+      child: Column(
+        children: [
+          MenuEndDrawerBuildList(),
+        ],
       ),
     );
   }
