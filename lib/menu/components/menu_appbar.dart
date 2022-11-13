@@ -28,9 +28,9 @@ class MenuAppBar extends StatelessWidget with PreferredSizeWidget {
                   decoration: const BoxDecoration(
                       boxShadow: [
                         BoxShadow(
-                            blurRadius: 6,
-                            spreadRadius: 2,
-                            color: Color.fromARGB(255, 97, 122, 155))
+                            blurRadius: 40,
+                            spreadRadius: 10,
+                            color: Color.fromARGB(0, 252, 250, 250))
                       ],
                       shape: BoxShape.circle,
                       color: Color.fromARGB(255, 236, 236, 239)),
@@ -47,6 +47,6 @@ class MenuAppBar extends StatelessWidget with PreferredSizeWidget {
             );
           }),
         ],
-        elevation: 10);
+        elevation: 2);
   }
 }

@@ -6,5 +6,8 @@ $dbUsername ="u452568559_template_menu";
 $dbPassword="Menu_template_8866+";
 $dbName ="u452568559_template_menu";
 $conn = new mysqli($host, $dbUsername, $dbPassword,$dbName);
-
+if(mysqli_connect_error()){
+    die('Connect Error('.mysqli_connect_error().')');
+    exit();
+}
 ?>

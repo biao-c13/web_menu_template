@@ -5,10 +5,10 @@ class Palette {
   static const kBackgroundColor = Color(0xfff7f4e0);
 
   static const MaterialColor colorPrimarySwatch = MaterialColor(
-    0xff140028,
+    0xff202020,
     <int, Color>{
       50: Color(
-        0xffcdd9f4,
+        0xff383838,
       ),
       100: Color(0x32fff7f4),
       200: Color(0xFFFFFFFF),
